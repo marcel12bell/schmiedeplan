@@ -9,7 +9,8 @@ var lower_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Lower Wood"
+        "room": "Lower Wood",
+        "timetable": ["19:00 Meeting", "20:00 Präsi"]
       },
       "geometry": {
         "type": "Polygon",

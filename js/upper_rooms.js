@@ -10,7 +10,7 @@ var upper_rooms = {
         "fill": "#555555",
         "fill-opacity": 0.5,
         "room": "Upper Wood",
-        "timetable": ["19:00 Meeting"]
+        "timetable": ["19:00 Meeting", "20:00 Präsi"]
       },
       "geometry": {
         "type": "Polygon",

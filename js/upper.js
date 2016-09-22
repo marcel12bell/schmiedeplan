@@ -30,17 +30,19 @@ document.addEventListener('DOMContentLoaded', function() {
   function get_times(timetable) {
     var string = '';
     if (timetable) {
-      string = "<br>"+ timetable;
+      for (el in timetable) {
+        string += "<br>"+ timetable[el];
+      }
     }
     return string;
   }
 
   var popup;
   var layer = L.geoJson(upper_rooms['features'], {
-      style: style,
-      onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.room + get_times(feature.properties.timetable));
-      }
+    style: style,
+    onEachFeature: function (feature, layer) {
+      layer.bindPopup(feature.properties.room + get_times(feature.properties.timetable));
+    }
   }).addTo(map);
 
   L.control.search({
