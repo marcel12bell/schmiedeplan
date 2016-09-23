@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  padding: 5px;
+  padding: 0;
   margin: 0;
   background-color: rgb(243, 243, 243);
   font-family: 'Montserrat', sans-serif;
@@ -9,6 +9,46 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(135, 0, 0);
+}
+
+.nav ul {
+  list-style: none;
+  background-color: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  color: rgb(135, 0, 0);
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.nav .home {
+  float: left;
+  color: white;
+  font-size: 33px;
+  font-weight: 900;
+  padding-left: 12px;
 }
 
 a:visited {
