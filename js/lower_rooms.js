@@ -53,7 +53,7 @@ var lower_rooms = {
         "fill-opacity": 0.5,
         "room": "Lower Salt",
         "timetable": [
-          "-1.? (Audiovisual Installation Performance)"
+          "21:00-21:30 -1.? (Audiovisual Installation Performance)"
           ]
       },
       "geometry": {
