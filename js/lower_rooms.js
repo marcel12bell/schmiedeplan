@@ -11,8 +11,8 @@ var lower_rooms = {
         "fill-opacity": 0.5,
         "room": "Lower Wood",
         "timetable": [
-          "19:00 Meeting",
-          "20:00 Präsi"
+          "21:00 trans-Art melting frames (Video startet immer zur vollen Stunde)",
+          "22:30-22:50 S+Miths (Live Art Performance)"
         ]
       },
       "geometry": {
@@ -51,7 +51,10 @@ var lower_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Lower Salt"
+        "room": "Lower Salt",
+        "timetable": [
+          "-1.? (Audiovisual Installation Performance)"
+          ]
       },
       "geometry": {
         "type": "Polygon",
@@ -127,7 +130,10 @@ var lower_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Tower"
+        "room": "Tower",
+        "timetable" : [
+          "22:30 Schmiede Gesangsverein"
+          ]
       },
       "geometry": {
         "type": "Polygon",
@@ -165,7 +171,7 @@ var lower_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Dynamo"
+        "room": "Elektro"
       },
       "geometry": {
         "type": "Polygon",
@@ -241,7 +247,13 @@ var lower_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Boiler"
+        "room": "Boiler",
+        "timetable": [
+          "21:20-21:35 Four Elemnts (Dance / Music / Projection)",
+          "21:35-22:05 dis_shade (Wall Dance)",
+          "23:00-1:30 LobsterLAB & Static Heave (Audiovisual)",
+          "23:30-1:30 16mm film performance"
+          ]
       },
       "geometry": {
         "type": "Polygon",
@@ -279,7 +291,12 @@ var lower_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Yard"
+        "room": "Yard",
+        "timetable": [
+          "22:00-22:30 VIEWFINDER (Music & Visuals)",
+          "22:30-23:00 ADHS Shop (Concert)" ,
+          "23:00-01:00 Steuerspannung/Fremdspannung (Installation)"
+          ]
       },
       "geometry": {
         "type": "Polygon",
@@ -325,7 +342,11 @@ var lower_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Forge"
+        "room": "Forge",
+        "timetable": [
+          "21:30-21:40 Shake the Monster (Performance)",
+          "23:30-23:45 Reign in Blood (Installation)"
+          ]
       },
       "geometry": {
         "type": "Polygon",
