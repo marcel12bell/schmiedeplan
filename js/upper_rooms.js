@@ -11,8 +11,7 @@ var upper_rooms = {
         "fill-opacity": 0.5,
         "room": "Upper Wood",
         "timetable": [
-          "19:00 Meeting",
-          "20:00 Präsi"
+          "19:30 Opening"
         ]
       },
       "geometry": {
@@ -51,7 +50,11 @@ var upper_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Miner"
+        "room": "Miner",
+        "timetable": [
+          "21:00-21:30 No drive (Live Performance)",
+          "22:30-22:50 Die Leckmuscheln (Band)"
+          ]
       },
       "geometry": {
         "type": "Polygon",
@@ -89,7 +92,11 @@ var upper_rooms = {
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "room": "Upper Salt"
+        "room": "Upper Salt",
+        "timetable": [
+        "20:00-21:00 WUNSCH.AMT - Bureau of Desire",
+        "22:30-22:50 WUNSCH.AMT - Bureau of Desire"
+        ]
       },
       "geometry": {
         "type": "Polygon",
